@@ -1,0 +1,2 @@
+/usr/bin/ar qc /dwt/project/dwt_rpc_dwt_muduo/lib/libdwtrpc.a CMakeFiles/dwtrpc.dir/dwt_buffer.cpp.o CMakeFiles/dwtrpc.dir/dwt_logger.cpp.o CMakeFiles/dwtrpc.dir/dwt_rpc_application.cpp.o CMakeFiles/dwtrpc.dir/dwt_rpc_channel.cpp.o CMakeFiles/dwtrpc.dir/dwt_rpc_config.cpp.o CMakeFiles/dwtrpc.dir/dwt_rpc_controller.cpp.o CMakeFiles/dwtrpc.dir/dwt_rpc_provider.cpp.o CMakeFiles/dwtrpc.dir/rpcheader.pb.cc.o CMakeFiles/dwtrpc.dir/zookeeper_util.cpp.o
+/usr/bin/ranlib /dwt/project/dwt_rpc_dwt_muduo/lib/libdwtrpc.a

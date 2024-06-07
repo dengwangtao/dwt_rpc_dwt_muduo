@@ -1,0 +1,98 @@
+[
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/src",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/dwtrpc.dir/dwt_buffer.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/src/dwt_buffer.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/src/dwt_buffer.cpp",
+  "output": "src/CMakeFiles/dwtrpc.dir/dwt_buffer.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/src",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/dwtrpc.dir/dwt_logger.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/src/dwt_logger.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/src/dwt_logger.cpp",
+  "output": "src/CMakeFiles/dwtrpc.dir/dwt_logger.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/src",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/dwtrpc.dir/dwt_rpc_application.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/src/dwt_rpc_application.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/src/dwt_rpc_application.cpp",
+  "output": "src/CMakeFiles/dwtrpc.dir/dwt_rpc_application.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/src",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/dwtrpc.dir/dwt_rpc_channel.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/src/dwt_rpc_channel.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/src/dwt_rpc_channel.cpp",
+  "output": "src/CMakeFiles/dwtrpc.dir/dwt_rpc_channel.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/src",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/dwtrpc.dir/dwt_rpc_config.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/src/dwt_rpc_config.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/src/dwt_rpc_config.cpp",
+  "output": "src/CMakeFiles/dwtrpc.dir/dwt_rpc_config.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/src",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/dwtrpc.dir/dwt_rpc_controller.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/src/dwt_rpc_controller.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/src/dwt_rpc_controller.cpp",
+  "output": "src/CMakeFiles/dwtrpc.dir/dwt_rpc_controller.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/src",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/dwtrpc.dir/dwt_rpc_provider.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/src/dwt_rpc_provider.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/src/dwt_rpc_provider.cpp",
+  "output": "src/CMakeFiles/dwtrpc.dir/dwt_rpc_provider.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/src",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/dwtrpc.dir/rpcheader.pb.cc.o -c /dwt/project/dwt_rpc_dwt_muduo/src/rpcheader.pb.cc",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/src/rpcheader.pb.cc",
+  "output": "src/CMakeFiles/dwtrpc.dir/rpcheader.pb.cc.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/src",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/dwtrpc.dir/zookeeper_util.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/src/zookeeper_util.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/src/zookeeper_util.cpp",
+  "output": "src/CMakeFiles/dwtrpc.dir/zookeeper_util.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/example/callee",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/provider.dir/userservice.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/example/callee/userservice.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/example/callee/userservice.cpp",
+  "output": "example/callee/CMakeFiles/provider.dir/userservice.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/example/callee",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /dwt/project/dwt_rpc_dwt_muduo/example/user.pb.cc",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/example/user.pb.cc",
+  "output": "example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/example/callee2",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/provider2.dir/userservice.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/example/callee2/userservice.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/example/callee2/userservice.cpp",
+  "output": "example/callee2/CMakeFiles/provider2.dir/userservice.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/example/callee2",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/provider2.dir/__/info.pb.cc.o -c /dwt/project/dwt_rpc_dwt_muduo/example/info.pb.cc",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/example/info.pb.cc",
+  "output": "example/callee2/CMakeFiles/provider2.dir/__/info.pb.cc.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/example/caller",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/consumer.dir/calluserservice.cpp.o -c /dwt/project/dwt_rpc_dwt_muduo/example/caller/calluserservice.cpp",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/example/caller/calluserservice.cpp",
+  "output": "example/caller/CMakeFiles/consumer.dir/calluserservice.cpp.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/example/caller",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /dwt/project/dwt_rpc_dwt_muduo/example/user.pb.cc",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/example/user.pb.cc",
+  "output": "example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o"
+},
+{
+  "directory": "/dwt/project/dwt_rpc_dwt_muduo/build/example/caller",
+  "command": "/usr/bin/g++  -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty -g -std=gnu++17 -o CMakeFiles/consumer.dir/__/info.pb.cc.o -c /dwt/project/dwt_rpc_dwt_muduo/example/info.pb.cc",
+  "file": "/dwt/project/dwt_rpc_dwt_muduo/example/info.pb.cc",
+  "output": "example/caller/CMakeFiles/consumer.dir/__/info.pb.cc.o"
+}
+]

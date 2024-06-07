@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package dwt;
+
+option cc_generic_services = true;
+
+message ResultCode {
+    int32 errcode = 1;
+    bytes errmsg = 2;
+}
+
+message LoginRequest {
+    bytes name = 1;
+    bytes password = 2;
+}
+
+message LoginResponse {
+    ResultCode result = 1;
+    bool success = 2;
+}
+
+message RegisterRequest {
+    bytes name = 1;
+    bytes password = 2;
+}
+
+message RegisterResponse {
+    ResultCode result = 1;
+    bool success = 2;
+    int32 id = 3;           // 注册完成, 返回id
+}
+
+
+service UserServiceRpc {
+    rpc Login (LoginRequest) returns (LoginResponse);
+
+    rpc Register (RegisterRequest) returns (RegisterResponse);
+}
+
+//protoc user.proto --cpp_out=./

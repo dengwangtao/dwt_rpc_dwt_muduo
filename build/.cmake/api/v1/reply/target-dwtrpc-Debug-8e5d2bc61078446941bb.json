@@ -1,0 +1,207 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "/dwt/project/dwt_rpc_dwt_muduo/lib/libdwtrpc.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/dwt/project/dwt_rpc_dwt_muduo/example"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/dwt/project/dwt_rpc_dwt_muduo/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/dwt/project/dwt_rpc_dwt_muduo/src/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"id" : "dwtrpc::@145eef247bfb46b6828c",
+	"name" : "dwtrpc",
+	"nameOnDisk" : "libdwtrpc.a",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dwt_buffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dwt_logger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dwt_rpc_application.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dwt_rpc_channel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dwt_rpc_config.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dwt_rpc_controller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dwt_rpc_provider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/rpcheader.pb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/zookeeper_util.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

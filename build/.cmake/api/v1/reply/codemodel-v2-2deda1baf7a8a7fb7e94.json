@@ -1,0 +1,167 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "example",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-example-Debug-b6fca4a6d0a37c6ae6b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example"
+				},
+				{
+					"build" : "example/callee",
+					"jsonFile" : "directory-example.callee-Debug-1eaa0cd6ad8e395f31c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "example/callee",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "example/callee2",
+					"jsonFile" : "directory-example.callee2-Debug-31a362e829164382fe50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "example/callee2",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "example/caller",
+					"jsonFile" : "directory-example.caller-Debug-f9d6ea7088e14e8f00d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "example/caller",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "dwt_rpc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "consumer::@c2a3416f73e845390d82",
+					"jsonFile" : "target-consumer-Debug-06d65ab3c0cfc1391bd1.json",
+					"name" : "consumer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dwtrpc::@145eef247bfb46b6828c",
+					"jsonFile" : "target-dwtrpc-Debug-8e5d2bc61078446941bb.json",
+					"name" : "dwtrpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "provider::@493cd8b262c97a98b12b",
+					"jsonFile" : "target-provider-Debug-97bc1fa8fe577fa844e3.json",
+					"name" : "provider",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "provider2::@eb21e93ef69fdd912da9",
+					"jsonFile" : "target-provider2-Debug-2ce0a71e62c581ebc4a2.json",
+					"name" : "provider2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/dwt/project/dwt_rpc_dwt_muduo/build",
+		"source" : "/dwt/project/dwt_rpc_dwt_muduo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
