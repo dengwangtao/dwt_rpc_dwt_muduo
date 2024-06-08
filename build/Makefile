@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named dwt_muduo
+
+# Build rule for target.
+dwt_muduo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dwt_muduo
+.PHONY : dwt_muduo
+
+# fast build rule for target.
+dwt_muduo/fast:
+	$(MAKE) $(MAKESILENT) -f dwt_muduo/CMakeFiles/dwt_muduo.dir/build.make dwt_muduo/CMakeFiles/dwt_muduo.dir/build
+.PHONY : dwt_muduo/fast
+
+#=============================================================================
 # Target rules for targets named dwtrpc
 
 # Build rule for target.
@@ -177,6 +190,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... consumer"
+	@echo "... dwt_muduo"
 	@echo "... dwtrpc"
 	@echo "... provider"
 	@echo "... provider2"

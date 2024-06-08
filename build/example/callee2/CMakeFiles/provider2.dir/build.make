@@ -109,6 +109,7 @@ provider2_EXTERNAL_OBJECTS =
 /dwt/project/dwt_rpc_dwt_muduo/bin/provider2: example/callee2/CMakeFiles/provider2.dir/__/info.pb.cc.o
 /dwt/project/dwt_rpc_dwt_muduo/bin/provider2: example/callee2/CMakeFiles/provider2.dir/build.make
 /dwt/project/dwt_rpc_dwt_muduo/bin/provider2: /dwt/project/dwt_rpc_dwt_muduo/lib/libdwtrpc.a
+/dwt/project/dwt_rpc_dwt_muduo/bin/provider2: /dwt/project/dwt_rpc_dwt_muduo/lib/libdwt_muduo.a
 /dwt/project/dwt_rpc_dwt_muduo/bin/provider2: example/callee2/CMakeFiles/provider2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/dwt/project/dwt_rpc_dwt_muduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /dwt/project/dwt_rpc_dwt_muduo/bin/provider2"
 	cd /dwt/project/dwt_rpc_dwt_muduo/build/example/callee2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/provider2.dir/link.txt --verbose=$(VERBOSE)

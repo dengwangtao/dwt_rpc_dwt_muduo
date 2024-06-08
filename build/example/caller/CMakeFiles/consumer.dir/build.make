@@ -125,6 +125,7 @@ consumer_EXTERNAL_OBJECTS =
 /dwt/project/dwt_rpc_dwt_muduo/bin/consumer: example/caller/CMakeFiles/consumer.dir/__/info.pb.cc.o
 /dwt/project/dwt_rpc_dwt_muduo/bin/consumer: example/caller/CMakeFiles/consumer.dir/build.make
 /dwt/project/dwt_rpc_dwt_muduo/bin/consumer: /dwt/project/dwt_rpc_dwt_muduo/lib/libdwtrpc.a
+/dwt/project/dwt_rpc_dwt_muduo/bin/consumer: /dwt/project/dwt_rpc_dwt_muduo/lib/libdwt_muduo.a
 /dwt/project/dwt_rpc_dwt_muduo/bin/consumer: example/caller/CMakeFiles/consumer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/dwt/project/dwt_rpc_dwt_muduo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /dwt/project/dwt_rpc_dwt_muduo/bin/consumer"
 	cd /dwt/project/dwt_rpc_dwt_muduo/build/example/caller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/consumer.dir/link.txt --verbose=$(VERBOSE)

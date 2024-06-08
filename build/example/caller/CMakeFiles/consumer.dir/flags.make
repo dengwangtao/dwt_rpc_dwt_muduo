@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo/include -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty
+CXX_INCLUDES = -I/dwt/project/dwt_rpc_dwt_muduo/dwt_muduo -I/dwt/project/dwt_rpc_dwt_muduo/example -I/dwt/project/dwt_rpc_dwt_muduo/src -I/dwt/project/dwt_rpc_dwt_muduo/src/include -I/dwt/project/dwt_rpc_dwt_muduo/src/thirdparty
 
 CXX_FLAGS = -g -std=gnu++17
 
