@@ -14,7 +14,7 @@
 - 使用多叉树+智能指针存储children节点, 维护一个sessionMapList来动态删除会话节点(session Node), 当一个会话超时关闭时, 会话节点会被删除. 相反, 永久节点常驻内存中
 - 当conntion请求到达后, 会生成sessionId, 用来进行心跳检测, 每次心跳包会带着该sessionId
 - 心跳使用UDP进行通信, 客户端需要每隔一段时间发送UDP心跳包来维护session, 服务端维护一个小根堆超时计时器和一个大根堆心跳计数器, 当连续(max_heartbeat=5)次接收不到心跳包, 执行回调, 删除会话节点
-- 提供了CLI和静态库两种客户端供第三方使用, 客户端维护一个heartbeat线程发送udp心跳包来保持绘会话连接
+- 提供了CLI和静态库两种客户端供第三方使用, 客户端维护一个heartbeat线程发送udp心跳包来保持会话连接
 
 
 ## dwt_rpc [https://github.com/dengwangtao/dwt_rpc](https://github.com/dengwangtao/dwt_rpc)
