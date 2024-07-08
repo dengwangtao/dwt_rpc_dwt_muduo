@@ -5,7 +5,8 @@
 #include <vector>
 #include <string>
 #include "rpcheader.pb.h"
-#include "zookeeper_util.h"
+// #include "zookeeper_util.h"
+#include "src_client.h"
 
 #include <sys/socket.h>
 #include <sys/types.h>
@@ -77,12 +78,15 @@ void DwtRpcChannel::CallMethod(
     }
 
 
-    // 根据zookeeper获取服务的ip和port
-    ZkClient zkcli;
-    zkcli.Start();
+    // 根据dwt_src获取服务的ip和port
+    std::string src_ip = DwtRpcApplication::getInstance().getConfig().Get("dwt_src_ip");
+    std::string src_port_str = DwtRpcApplication::getInstance().getConfig().Get("dwt_src_port");
+    auto& src = dwt::SRCCLient::getInstance();
+    src.connect(src_ip, std::stoi(src_port_str));
 
     std::string path = "/" + service_name + "/" + method_name;
-    std::string ip_port = zkcli.GetData(path.c_str());
+    std::string ip_port = src.getNode(path);
+
     int sep = -1;
     if(ip_port == "" || (sep = ip_port.find(':')) == std::string::npos) {
         controller->SetFailed(path + "is not found!");

@@ -1,9 +1,16 @@
 #include "dwt_rpc_provider.h"
 #include "dwt_rpc_application.h"
 #include "rpcheader.pb.h"
-#include "zookeeper_util.h"
+// #include "zookeeper_util.h"
+#include "src_client.h"
 
 #include <google/protobuf/descriptor.h>
+
+
+DwtRpcProvider::~DwtRpcProvider() {
+    // 断开与dwt_src的会话心跳
+    dwt::SRCCLient::getInstance().disconnect();
+}
 
 void DwtRpcProvider::NotifyService(::google::protobuf::Service *service) {
 
@@ -52,16 +59,19 @@ void DwtRpcProvider::Run() {
 
 
     // ===============================
-    // 将服务注册到zk
-    ZkClient zkcli;
-    zkcli.Start();
+    // 将服务注册到dwt_src
+    std::string src_ip = DwtRpcApplication::getInstance().getConfig().Get("dwt_src_ip");
+    std::string src_port_str = DwtRpcApplication::getInstance().getConfig().Get("dwt_src_port");
+    auto& src = dwt::SRCCLient::getInstance();
+    src.connect(src_ip, std::stoi(src_port_str));
     
     for(auto& service : m_serviceMap) {
         const std::string& service_name = service.first;
         const ServiceInfo& service_info = service.second;
 
         std::string service_path = "/" + service_name;
-        zkcli.Create(service_path.c_str(), nullptr, 0); // 0 为永久节点
+        src.createNode(service_path, "", 1); // 创建永久节点
+
 
         for(auto& m : service_info.m_methodMap) {
             const std::string& method_name = m.first;
@@ -70,10 +80,11 @@ void DwtRpcProvider::Run() {
             char method_data[64] = {0};
             sprintf(method_data, "%s:%d", ip.c_str(), port);
 
-            zkcli.Create(method_path.c_str(), method_data, strlen(method_data), ZOO_EPHEMERAL); // 临时节点
+            src.createNode(method_path, method_data, 2); // 会话节点
         }
     }
     // ===============================
+    
 
     DWT_LOG_INFO("RpcProvider start service at %s:%d", ip.c_str(), port);
     

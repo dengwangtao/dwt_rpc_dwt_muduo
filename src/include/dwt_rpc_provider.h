@@ -17,6 +17,9 @@ public:
 
     void Run();
 
+    // 析构
+    ~DwtRpcProvider();
+
 private:
     void onConnection(const dwt::TcpConnectionPtr&);
 

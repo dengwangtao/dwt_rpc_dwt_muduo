@@ -77,7 +77,7 @@ void DwtLogger::init(int level = 1, const char* path, const char* suffix, int ma
         if(fp_ == nullptr) {
             mkdir(path_, 0777);
             fp_ = fopen(fileName, "a");
-        } 
+        }
         assert(fp_ != nullptr);
     }
 }

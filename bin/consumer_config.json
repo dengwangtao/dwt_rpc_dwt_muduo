@@ -2,5 +2,8 @@
     "zookeeper_ip": "local-zookeeper",
     "zookeeper_port": "2181",
 
-    "log_path": "./log/consumer/"
+    "dwt_src_ip": "127.0.0.1",
+    "dwt_src_port": "10606",
+
+    "log_path": "./log/consumer"
 }
